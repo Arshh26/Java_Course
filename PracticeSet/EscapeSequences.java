@@ -1,5 +1,3 @@
-package PracticeSet;
-
 public class EscapeSequences {
     public static void main(String[] args) {
         // \" → Prints double quotes inside a string

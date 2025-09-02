@@ -1,5 +1,3 @@
-package PracticeSet;
-
 public class TypeConversionAndCasting {
     public static void main(String[] args) {
         float myInt = 5.0f;
