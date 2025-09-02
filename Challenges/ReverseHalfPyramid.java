@@ -1,6 +1,6 @@
 package Challenges;
 
-public class reverseHalfPyramid {
+public class ReverseHalfPyramid {
     public static void main(String[] args) {
         System.out.println("* * * * *");
         System.out.println("* * * *");

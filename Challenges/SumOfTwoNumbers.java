@@ -2,7 +2,7 @@ package Challenges;
 
 import java.util.Scanner;
 
-public class sumOfTwoNumbers {
+public class SumOfTwoNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter The First Number: ");

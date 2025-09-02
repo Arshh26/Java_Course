@@ -1,6 +1,6 @@
 package Challenges;
 
-public class leftHalfPyramid {
+public class LeftHalfPyramid {
     public static void main(String[] args) {
         System.out.println("        *");
         System.out.println("      * *");

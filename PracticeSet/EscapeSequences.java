@@ -1,6 +1,6 @@
 package PracticeSet;
 
-public class escapeSequences {
+public class EscapeSequences {
     public static void main(String[] args) {
         // \" → Prints double quotes inside a string
         System.out.println("Hii \"Arshad\"");  //output: Hii "Arshad"
