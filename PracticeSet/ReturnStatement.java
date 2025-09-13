@@ -27,5 +27,4 @@ public class ReturnStatement {
         int number = input.nextInt();
         return number;
     }
-
 }
