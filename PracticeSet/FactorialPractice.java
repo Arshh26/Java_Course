@@ -1,22 +1,26 @@
 import java.util.Scanner;
 
-public class Factorial {
+public class FactorialPractice {
     public static void main(String[] args) {
-        System.out.println("Welcome to Factorial");
+        greet();
         Scanner input = new Scanner(System.in);
-        System.out.print("Please Enter Your Number: ");
+        System.out.println("Please Enter The Number: ");
         int num = input.nextInt();
         long fact = factorial(num);
-        System.out.println("Factorial is: " +fact);
+        System.out.println("Your Answer is: "+fact);
 
     }
+    public static void greet(){
+        System.out.println("Welcome to Factorial\n");
+    }
+
     public static long factorial(int num){
-        if( num < 2) {
+        if(num <= 2) {
             return 1;
         }
-        long fact = 1;
-        int i = 2;
-        while (i <= 2){
+        long fact = 2;
+        int i = 3;
+        while (i <= num){
             fact *= i;
             i++;
         }
