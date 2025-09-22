@@ -6,7 +6,7 @@
 //        Scanner input = new Scanner(System.in);
 //        System.out.println("Please, Enter Your Number: ");
 //        int num = input.nextInt();
-//        int div = reversTheNumber(num);
+//        int div = reversTheNumber(num);j
 //        System.out.println("Your reversed Number is: "+ div);
 //    }
 //
