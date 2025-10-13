@@ -15,7 +15,6 @@ public class OccurrencesArray {
         System.out.println("Please, enter the number of elements: ");
         int size = input.nextInt();
         int[] num = new int[size];
-
         int i = 0;
         while (i < num.length) {
             System.out.println("Now, Enter the element number " + (i + 1) + ": ");
