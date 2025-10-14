@@ -9,7 +9,7 @@ public class Driver {
     }
 
     public static void main(String[] args) {
-        Car myCar = new Car();
+        Car myCar = new Car("Red");
         myCar.addFuel(6);
         myCar.drive();
         myCar.drive();
@@ -25,9 +25,11 @@ public class Driver {
         myCar.addFuel(3);
         System.out.println(myCar.getCurrentFuelLevel());
 
-        Car swift = new Car();
+        Car swift = new Car("Red");
+        Car thar = new Car();
         swift.addFuel(6);
         swift.start().drive();
+        System.out.println(swift.color);
 
         Driver myDriver = new Driver();
         myDriver.dateOfLicense = "1/Jan/2024";

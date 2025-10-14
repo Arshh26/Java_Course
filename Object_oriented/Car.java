@@ -9,6 +9,19 @@ public class Car {
 
     int noOfSeats;
 
+    Car(String color) {
+        noOfWheels = 4;
+        this.color = color;
+        maxSpeed = 150;
+        currentFuelInLiters = 2;
+        noOfSeats = 5;
+    }
+
+    Car() {
+       this("Black");
+       currentFuelInLiters = 5;
+    }
+
     public Car start() {
         if (currentFuelInLiters == 0) {
             System.out.println("Car is out of fuel, can't start");
