@@ -6,28 +6,13 @@ public class AbsoluteTernary { //Absolute value makes the nagetive value to posi
         Scanner input = new Scanner(System.in);
         System.out.print("Please, Enter your Number: ");
         int num = input.nextInt();
-        AbsoluteTernary ternary = new AbsoluteTernary();
+        AbsoluteTernary ternary = new AbsoluteTernary();  //Object is created.
         int result = ternary.absoluteValue(num);
         System.out.println("Your Absolute Value is: "+ result);
 
 
     }
     public int absoluteValue(int num){
-        return (num >= 0) ? num : -num;
+        return (num >= 0) ? num : -num; // -num is unary Opearator.
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
