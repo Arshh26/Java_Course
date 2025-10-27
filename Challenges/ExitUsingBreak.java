@@ -5,7 +5,7 @@ public class ExitUsingBreak {
         System.out.println("Break Statement \n");
         Scanner input = new Scanner(System.in);
         while(true) {
-            System.out.println("please, Enter your command: ");
+            System.out.println("Please, Enter your command: ");
             String command = input.next();
             if (command.equalsIgnoreCase("exit")) {
                 break;
