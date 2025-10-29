@@ -10,7 +10,6 @@ public class MyBikeRun {
         pulsor.model = "NS 200";
         pulsor.maxSpeed = 200;
 
-
         System.out.println(pulsor);
         System.out.println(myBike);
     }
