@@ -19,11 +19,11 @@ public class GuessingGame {
     public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
             GuessingGame game = new GuessingGame();
-        System.out.println("Welcome to the guessing game guess the number between");
+        System.out.println("Welcome to the guessing game guess the number between 1 to 100");
         int guess;
         int result;
         do{
-            System.out.println("Guess the number");
+            System.out.println("Guess the number: ");
             guess = input.nextInt();
             result = game.guess(guess);
             if(result == 0) {
