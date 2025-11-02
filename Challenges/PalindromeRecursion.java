@@ -17,7 +17,7 @@ public class PalindromeRecursion {
          if (str.charAt(0) != str.charAt(lastPos)) {
              return false;
         }
-         String newStr = str.substring(1,lastPos);
+         String newStr = str.substring(1,lastPos); //The substring() method creates a new string from an existing one. //Take everything from index 1 up to (but not including) index lastPos.
          return isPalindrome(newStr);
 
 
