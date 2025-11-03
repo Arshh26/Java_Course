@@ -7,10 +7,5 @@ public class TestShape {
         s2.draw();
         s2.display();
 
-
-
-
-
-
     }
 }
