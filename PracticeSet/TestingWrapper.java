@@ -3,7 +3,5 @@ public class TestingWrapper {
         Integer first = Integer.valueOf(55);
 //        Integer first = 55; (Automatic Conversion)
         System.out.println(first.floatValue());
-
-
     }
 }
