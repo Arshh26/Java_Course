@@ -3,7 +3,6 @@ package Collection_Generics.Collections_Class;
 import Collection_Generics.Utility;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
